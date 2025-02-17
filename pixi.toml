@@ -9,6 +9,18 @@ version = "0.1.0"
 [tasks]
 
 [dependencies]
+python = "3.6.4.*"
+torch = "1.10.1.*"
+tensorflow = "1.12.0.*"
+keras = "2.1.0.*"
+scipy = "1.5.4.*"
+numpy = "1.19.5.*"
+pandas = "1.1.5.*"
+scikit-learn = "0.24.2.*"
+
+[features]
+scvag-cuda = []
+
 
 [environments]
-scvag-cuda = ["scVAG_cuda"]
+scvag-cuda = ["scvag-cuda"]
